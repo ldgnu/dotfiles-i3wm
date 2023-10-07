@@ -1,0 +1,13 @@
+[general]
+base_currency = NZD
+display = both
+
+[bitcoin]
+icon = 
+
+[ethereum]
+icon = 
+
+[dai]
+icon = dai
+

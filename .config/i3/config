@@ -1,0 +1,71 @@
+# ██╗░░░██████╗░░██████╗░ ███╗░░██╗██╗░░░██╗
+# ██║░░░░██╔══██╗██╔════╝░████╗░██║██║░░░██║
+# ██║░░░░██║░░██║██║░░██╗░██╔██╗██║██║░░░██║
+# ██║░░░░░██║░░██║██║░░╚██╗██║╚████║██║░░░██║
+# ███████╗██████╔╝╚██████╔██║░╚███║╚██████╔╝
+# ╚══════╝╚═════╝░░╚═════╝░╚═╝░░╚══╝░╚═════╝░
+
+### 
+#▀▀█▀▀ █──█ ─▀─ █▀▀ 　 ─▀─ █▀▀ 　 █▀▄▀█ █──█ 　 █▀▀ █▀▀█ █▀▀▄ █▀▀ ─▀─ █▀▀▀ █ 
+#──█── █▀▀█ ▀█▀ ▀▀█ 　 ▀█▀ ▀▀█ 　 █─▀─█ █▄▄█ 　 █── █──█ █──█ █▀▀ ▀█▀ █─▀█ ▀ 
+#──▀── ▀──▀ ▀▀▀ ▀▀▀ 　 ▀▀▀ ▀▀▀ 　 ▀───▀ ▄▄▄█ 　 ▀▀▀ ▀▀▀▀ ▀──▀ ▀── ▀▀▀ ▀▀▀▀ ▄ 
+
+include $HOME/.config/i3/autostart.conf
+include $HOME/.config/i3/workspaces.conf
+include $HOME/.config/i3/atajos.conf
+include $HOME/.config/i3/rules.conf
+include $HOME/.config/i3/scratchpad.conf
+include $HOME/.config/i3/colors.conf
+
+font pango:$icons,$font,$font2
+
+set $Super Mod4
+set $Alt Mod1
+set $icons FontAwesome 12
+set $font Ubuntu Condensed 10
+set $font2 Ubuntu Condensed 11
+set $navegador firefox
+set $terminal kitty
+set $archivos  thunar
+set $email mailspring
+
+# Use Mouse+$Super to drag floating windows to their wanted position
+floating_modifier $Super
+
+
+# target                 title     bg    text   indicator  border
+client.focused           $pink     $base $text  $base1 $base00
+client.focused_inactive  $yellow    $base $text  $base1 $blue
+client.unfocused         $yellow    $base $text  $base1 $base
+client.urgent            $violet    $base $violet $red  $violet
+client.placeholder       $orange $base $text  $red  $orange
+client.background        $base
+
+
+set $base	#002b36	
+set $base02	#073642	
+set $base01	#586e75	
+set $base00	#657b83	
+set $base0	#839496	
+set $base1	#93a1a1	
+set $base2	#eee8d5	
+set $text	#fdf6e3	
+set $yellow	#b58900	
+set $orange	#cb4b16	
+set $red	#d30102	
+set $pink #d33682	
+set $violet	#6c71c4	
+set $blue	#268bd2	
+set $cyan	#2aa198	
+set $green	#859900	
+#Popups during fullscreen mode
+popup_during_fullscreen smart
+
+smart_gaps on
+gaps inner 3
+gaps outer 3
+hide_edge_borders smart
+
+
+
+

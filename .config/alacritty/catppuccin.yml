@@ -1,0 +1,42 @@
+# Catppuccin!
+colors:
+  # Default colors
+  primary:
+    background: '0x000000'
+    foreground: '0xffffff'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#1E1E28'
+    cursor: '#B1E3AD'
+
+  # Normal colors
+  normal:
+    black:   '0x757575'
+    red:     '0xff5f5f'
+    green:   '0xde8a36'
+    yellow:  '0xd78787'
+    blue:    '0xaf5fd7'
+    magenta: '0xff87d7'
+    cyan:    '0xdea3e5'
+    white:   '0xb8b8b8'
+
+  # Bright colors
+  bright:
+    black:   '0xb8b8b8'
+    red:     '0xd78787'
+    green:   '0xff9f6f'
+    yellow:  '0xff5f5f'
+    blue:    '0xdea3e5'
+    magenta: '0xd7afaf'
+    cyan:    '0xaf5fd7'
+    white:   '0x757575'
+
+  indexed_colors:
+    - { index: 16, color: '#F2CECF' }
+    - { index: 17, color: '#3E4058' }
+
+
+
+
+
