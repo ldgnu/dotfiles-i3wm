@@ -29,6 +29,9 @@ pkill i3
 ## Personalización
 Todos los aspectos del setup pueden ser personalizados. Para ello, se pueden modificar los archivos de configuración en la carpeta ~/dotfiles/.
 
+![2023-10-07_16-33](https://github.com/ldgnu/dotfiles-i3wm/assets/29937221/13fdf494-8802-4dc1-9a2e-69692fad9a33)
+
+
 ## Aquí hay algunos consejos para personalizar el setup:
 
 Cambia el aspecto visual: Puedes cambiar los colores, las fuentes, y otros elementos visuales del setup.
