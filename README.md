@@ -40,6 +40,8 @@ Cambia el comportamiento de las aplicaciones: Puedes cambiar el comportamiento d
 Documentación
 ## La documentación del setup se encuentra en la carpeta docs/.
 
+![2023-10-07_16-43](https://github.com/ldgnu/dotfiles-i3wm/assets/29937221/74e065f4-ddf5-404c-a587-a7c6ce008bfd)
+
 ## Contribuciones
 Se aceptan contribuciones al repo. Para ello, se puede crear un fork del repo y enviar una pull request con los cambios.
 
